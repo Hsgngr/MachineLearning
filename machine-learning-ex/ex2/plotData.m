@@ -12,11 +12,20 @@ figure; hold on;
 %               examples and 'ko' for the negative examples.
 %
 
+%Decide whether result is positive or negative
+pos= find(y==1);
+neg = find(y==0);
 
+%Plot the data
+%X(pos,1) demek pozitifle sonuçlananlardan birinci sýnavlar demek
+plot(X(pos, 1), X(pos, 2), 'k+','LineWidth', 2, 'MarkerSize', 7);
+plot(X(neg, 1), X(neg, 2), 'ko', 'MarkerFaceColor', 'y','MarkerSize', 7);
 
+%Put the labels and legend
+xlabel('First Exam Results');
+ylabel('Second Exam Results'); 
 
-
-
+legend({'Passed','Failed'},'Location','southwest')
 
 
 

@@ -36,26 +36,28 @@ grad = zeros(size(theta));
 %           grad = grad + YOUR_CODE_HERE (using the temp variable)
 %
 
-% identical to costFunction.m
-h = sigmoid(X * theta);
 
-% cost term - identical to costFunction.m
-cost = (1 / m) * sum((-y .* log(h)) - ((1 - y) .* log(1 - (h))));
+z=X*theta;
+hX=sigmoid(z);
+H=hX .';
+h1=log(H)*(-y);
+h2=(log(1-H))*(1-y);
+J=(h1-h2)/m;
 
-% regularize term - skipping theta(0)
-% "end" keyword here refers to last element in matrix so we can subset the matrix
-regCost = (lambda / (2 * m)) * norm(theta([2:end])) ^ 2;
-
-
-
-% identical to costFunction.m
-grad = (1 / m) .* X' * (h - y);
-
+grad = 1 / m * ((hX - y)' * X)';
 temp=theta;
 temp(1) = 0;
-%==========================================
-J= cost +regCost;
-grad = grad + (lambda / m) .* temp;
 
+
+
+
+
+
+
+
+
+% =============================================================
+
+grad = grad(:);
 
 end

@@ -24,19 +24,8 @@ p = zeros(size(X, 1), 1);
 % Input Layer
 a1 = [ones(m, 1), X];
 
-% Hidden Layer
-z2 = a1 * Theta1';
-a2 = sigmoid(z2);
-
-bias = ones(size(a2, 1), 1);
-a2 = [bias, a2];
-
-% Output Layer
-z3 = a2 * Theta2';
-a3 = sigmoid(z3);
-
-% Calculate max as before
-[m, p] = max(a3, [], 2);
+layer1 = sigmoid(dot(Theta1(:,2:end), X'));
+p = sigmoid(dot(Theta2, layer1));
 
 
 

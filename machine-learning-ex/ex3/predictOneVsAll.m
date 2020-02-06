@@ -30,7 +30,12 @@ X = [ones(m, 1) X];
 %       for each row.
 %       
 
+% Calculate values for all inputs.
+A = X * all_theta';
 
+% max(A, [], 2) returns a column vector containing max 
+% value of every row in A and its index.
+[m, p] = max(A, [], 2);
 
 
 

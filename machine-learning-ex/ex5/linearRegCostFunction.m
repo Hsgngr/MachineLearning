@@ -19,32 +19,11 @@ grad = zeros(size(theta));
 %               You should set J to the cost and grad to the gradient.
 %
 
-function g = sigmoid(z)
-%SIGMOID Compute sigmoid functoon
-%   J = SIGMOID(z) computes the sigmoid of z.
-
-g = 1.0 ./ (1.0 + exp(-z));
-end
-
-% identical to costFunction.m
-h = sigmoid(X * theta);
-
-% cost term - identical to costFunction.m
-cost = (1 / m) * sum((-y .* log(h)) - ((1 - y) .* log(1 - (h))));
-
-% regularize term - skipping theta(0)
-% "end" keyword here refers to last element in matrix so we can subset the matrix
-regCost = (lambda / (2 * m)) * norm(theta([2:end])) ^ 2;
-
-
-% identical to costFunction.m
-grad = (1 / m) .* X' * (h - y);
-
-temp=theta;
-temp(1) = 0;
-%==========================================
-J= cost +regCost;
-grad = grad + (lambda / m) .* temp;
+% cost function
+J = ((X*theta - y)'*(X*theta - y))/(2*m) + (lambda/(2*m))*sum(theta(2:end,1).^2);
+% gradient step
+grad(1,1) = (1/m)*(X(:,1)'*((X*theta) - y));
+grad(2:end,1) = (1/m)*(X(:,2:end)'*((X*theta) - y)) + (lambda/m)*theta(2:end,1);
 
 % =========================================================================
 

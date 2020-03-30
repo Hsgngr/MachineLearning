@@ -20,8 +20,10 @@ S = zeros(n);
 %       number of examples).
 %
 
+%Calculating covariance matrix, where  is the data matrix with examples in rows, and  is the number of examples.
 
-
+Sigma = (1/m) * (X' * X);
+[U,S,~] = svd(Sigma);
 
 
 

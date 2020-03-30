@@ -20,7 +20,13 @@ idx = zeros(size(X,1), 1);
 %
 % Note: You can use a for-loop over the examples to compute this.
 %
-
+for i = 1:length(idx)
+    % repmat replicates the same training sample into K rows
+    % this will help us compute distances and errors vectorised way
+    distance = (repmat(X(i,:), K, 1) - centroids).^2;
+    errors = sum(distance, 2).^2;
+    [~, idx(i)] = min(errors);
+end
 
 
 

@@ -25,7 +25,10 @@ centroids = zeros(K, n);
 %
 % Note: You can use a for-loop over the centroids to compute this.
 %
-
+for i = 1:K
+    % sum across all vectors in centroid group divided by their count
+    centroids(i, :) = sum(X(idx == i, :))/size(idx(idx == i), 1);
+end
 
 
 

@@ -28,7 +28,7 @@ regressor.fit(X, y)
 
 # Predicting a new result
 y_pred = regressor.predict([[6.5]])
-y_pred = sc_y.inverse_transform(y_pred)
+y_pred = sc_y.inverse_transform(y_pred.reshape(-1,1)) #Inverse almamızın sebebi öncesinde feature scaling yapmamız.
 
 # Visualising the SVR results
 plt.scatter(X, y, color = 'red')

@@ -10,8 +10,11 @@ import pandas as pd
 from pathlib import Path
 
 # Importing the dataset
-X = pd.read_csv('all_X.csv', index_col=0)
-y = pd.read_csv('all_labels.csv', index_col=0)
+dataset=pd.read_csv(Path('imputed_data_with_class_Knn30_headers_upsampled.csv'), index_col=0)
+X=dataset.iloc[:, dataset.columns != 'prediction']
+y=dataset.prediction
+#X = pd.read_csv('X_train, index_col=0)
+#y = pd.read_csv('all_labels.csv', index_col=0)
 
 # Splitting the dataset into the Training set and Test set
 from sklearn.model_selection import train_test_split
@@ -29,7 +32,7 @@ classifier.score(X_cv,y_cv)
 
 # Fitting Logistic Regression to the Training set
 from sklearn.linear_model import LogisticRegression
-classifier = LogisticRegression(random_state = 0)
+classifier = LogisticRegression(random_state = 0, max_iter = 1000)
 classifier.fit(X_train, y_train)
 
 y_cv_pred= classifier.predict(X_cv)
@@ -60,16 +63,17 @@ plt.ylabel("True Positive Rate")
 plt.show()
 
 #Importing the test dataset
-X_test= pd.read_csv(Path('brighton-a-memorable-city/testing.csv'))
+X_test= pd.read_csv(Path('brighton-a-memorable-city/testing.csv'), index_col=0)
 
 # Predicting the Test set results
 y_pred = classifier.predict(X_test)
+y_pred=pd.DataFrame(data=y_pred)
 
 #Exporting the results as csv file:
-y_pred=pd.DataFrame(data=y_pred)
-ID=X_test.iloc[:,0].values
+
+ID=X_test.index.values
 y_pred.insert(0,'ID',ID)
 y_pred=y_pred.rename(columns={0: 'prediction'})
 y_pred.set_index('ID', inplace=True)
-y_pred.to_csv('y_pred.csv')
-
+y_pred.prediction.value_counts()
+y_pred.to_csv('y_pred_upsampled_imputed_with_class_Knn30_LogisticRegression_maxIter1000.csv')

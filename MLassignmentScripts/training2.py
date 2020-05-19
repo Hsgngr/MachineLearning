@@ -4,8 +4,6 @@ Created on Tue Apr 28 01:12:51 2020
 
 @author: Ege
 """
-#Logistic Regression
-
 # Importing the libraries
 import numpy as np
 import matplotlib.pyplot as plt
@@ -68,5 +66,5 @@ ID=X_test.index.values
 y_pred.insert(0,'ID',ID)
 y_pred=y_pred.rename(columns={0: 'prediction'})
 y_pred.set_index('ID', inplace=True)
-y_pred.to_csv('y_pred_upsampled_RandomForest2.csv')
-
+y_pred.to_csv('y_pred_upsampled_RandomForest2_tekrar_deneme.csv')
+y_pred.prediction.value_counts()

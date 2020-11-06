@@ -20,4 +20,4 @@ A Source Repository for Machine Learning related Courses I took. Example Noteboo
 * [RNNs for Language Recognition](articles/RNNs_for_Language_Recognition.pdf)
 
 ### CNN
-* [Densely Connected Convolutional Networks](articles/Densely Connected Convolutional Networks.pdf)
+* [Densely Connected Convolutional Networks](articles/Densely%20Connected%20Convolutional%20Networks.pdf)

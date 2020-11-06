@@ -12,7 +12,7 @@ A Source Repository for Machine Learning related Courses I took. Example Noteboo
 
 
 ### Feature Engineering
-* [Interpretable Machine Learning Explaining the Predictions of Any Classifier](articles/lime_article.pdf)
+* [LIME : Interpretable Machine Learning Explaining the Predictions of Any Classifier](articles/lime_article.pdf)
 
 
 ### RNN

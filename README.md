@@ -4,7 +4,7 @@ A Source Repository for Machine Learning related Courses I took. Example Noteboo
 
 ## Articles
 
-###General
+### General
 * [Calculus](articles/Calculus.pdf)
 
 ### Optimization

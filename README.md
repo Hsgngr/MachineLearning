@@ -1,4 +1,23 @@
-# Machine Learning Course 
+# Machine Learning Base Repo
 
-This is all the content for Machine Learning. It started with the course from Standford in coursera and I am adding articles that I also read.
-https://www.coursera.org/learn/machine-learning/home/info
+A Source Repository for Machine Learning related Courses I took. Example Notebooks / Articles
+
+## Articles
+
+###General
+* [Calculus](articles/Calculus.pdf)
+
+### Optimization
+* [Interpretable Machine Learning Explaining the Predictions of Any Classifier](articles/Adam_stochastic_optimization.pdf)
+
+
+### Feature Engineering
+* [Interpretable Machine Learning Explaining the Predictions of Any Classifier](articles/lime_article.pdf)
+
+
+### RNN
+* [Massive Exploration of Neural Machines Translation Architectures](articles/Massive_Exploration_of_Neural_Machine_Translation_Architectures.pdf)
+* [RNNs for Language Recognition](articles/RNNs_for_Language_Recognition.pdf)
+
+### CNN
+* [Densely Connected Convolutional Networks](articles/Densely Connected Convolutional Networks.pdf)

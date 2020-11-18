@@ -20,6 +20,7 @@ A Source Repository for Machine Learning related Courses I took. Example Noteboo
 * [RNNs for Language Recognition](articles/RNNs_for_Language_Recognition.pdf)
 
 ### CNN
+* [VGG_16 Very Deep CNN for Large-Deep Image Recognition (Andrew Zisserman 2015)](articles/VGG_16.pdf)
 * [ImageNet Classification with Deep Convolutional Neural Networks  (Alex Krizhevsky 2012)](articles/ImageNet_Classification_with_Deep_Convolutional_Neural_Networks.pdf)
 * [Gradient Based Learning Applied to Document Recognition (LeeCun 1998)](articles/Gradient_Based_Learning_Applied_to_Document_Recognition.pdf) (Read especially  Chapter II and III)
 * [Densely Connected Convolutional Networks](articles/Densely%20Connected%20Convolutional%20Networks.pdf)

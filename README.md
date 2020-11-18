@@ -20,4 +20,6 @@ A Source Repository for Machine Learning related Courses I took. Example Noteboo
 * [RNNs for Language Recognition](articles/RNNs_for_Language_Recognition.pdf)
 
 ### CNN
+* [Gradient Based Learning Applied to Document Recognition (LeeCun 1998)](articles/Gradient_Based_Learning_Applied_to_Document_Recognition.pdf)
 * [Densely Connected Convolutional Networks](articles/Densely%20Connected%20Convolutional%20Networks.pdf)
+

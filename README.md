@@ -8,7 +8,7 @@ A Source Repository for Machine Learning related Courses I took. Example Noteboo
 * [Calculus](articles/Calculus.pdf)
 
 ### Optimization
-* [Interpretable Machine Learning Explaining the Predictions of Any Classifier](articles/Adam_stochastic_optimization.pdf)
+* [Adam Optimizer](articles/Adam_stochastic_optimization.pdf)
 
 
 ### Feature Engineering

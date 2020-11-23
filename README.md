@@ -20,6 +20,7 @@ A Source Repository for Machine Learning related Courses I took. Example Noteboo
 * [RNNs for Language Recognition](articles/RNNs_for_Language_Recognition.pdf)
 
 ### CNN
+* [YOLO You Only Looked Once (Unified, Real Time Object Detection 2015)](articles/YOLO.pdf)
 * [OverFeat: Integrated Recognition, Localization and Detection using Convolutional Networks (Image Detection 2014)](articles/OverFeat.pdf)
 * [Going Deeper with Convolutions (Inception Convolutions 2014)](articles/going_deeper_with_convolutions.pdf)
 * [Network in Network (1x1 Convolutions 2013)](articles/Network_in_Network.pdf)

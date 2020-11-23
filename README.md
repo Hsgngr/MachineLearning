@@ -20,6 +20,7 @@ A Source Repository for Machine Learning related Courses I took. Example Noteboo
 * [RNNs for Language Recognition](articles/RNNs_for_Language_Recognition.pdf)
 
 ### CNN
+* [OverFeat: Integrated Recognition, Localization and Detection using Convolutional Networks (Image Detection 2014)](articles/OverFeat.pdf)
 * [Going Deeper with Convolutions (Inception Convolutions 2014)](articles/going_deeper_with_convolutions.pdf)
 * [Network in Network (1x1 Convolutions 2013)](articles/Network_in_Network.pdf)
 * [ImageNet Classification with Deep Convolutional Neural Networks  (Alex Krizhevsky 2012)](articles/ImageNet_Classification_with_Deep_Convolutional_Neural_Networks.pdf)

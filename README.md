@@ -20,6 +20,7 @@ A Source Repository for Machine Learning related Courses I took. Example Noteboo
 * [RNNs for Language Recognition](articles/RNNs_for_Language_Recognition.pdf)
 
 ### CNN
+* [FaceNet: A Unified Embedding for Face Recognition and Clustering 2015)](articles/FaceNet.pdf)
 * [Faster R-CNN ( Region Proposal Networks 2016)](articles/Faster_RCNN.pdf)
 * [Fast R-CNN ( Region Proposal Networks 2015)](articles/Fast_RCNN.pdf)
 * [R-CNN ( Region Proposal Networks 2013)](articles/Reigonal_CNN.pdf)

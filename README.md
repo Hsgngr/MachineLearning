@@ -20,6 +20,7 @@ A Source Repository for Machine Learning related Articles/Notebooks
 * [RNNs for Language Recognition](articles/RNNs_for_Language_Recognition.pdf)
 
 ### CNN
+* [A Neural Algorithm of Artistic Style (Neural Style Transfer 2015)](articles/artistic_style.pdf)
 * [Visualizing and Understanding Convolutional Networks (2013)](articles/Visualizing_and_Understanding_CNN.pdf)
 * [FaceNet: A Unified Embedding for Face Recognition and Clustering (2015)](articles/FaceNet.pdf)
 * [Faster R-CNN ( Region Proposal Networks 2016)](articles/Faster_RCNN.pdf)

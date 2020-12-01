@@ -98,6 +98,50 @@ df['income_cat'].value_counts() / len(df)
 #Now you should remove the income_cat attribute so the data is back to its original state
 for set_ in (strat_train_set, strat_test_set):
     set_.drop('income_cat', axis = 1, inplace= True)
+    
+#Let's make a copy of train_set for working on it without harming it:
+housing = strat_train_set.copy()
 
+#Visualizing Geographical Data
+housing.plot(kind = 'scatter', x = 'longitude', y='latitude', alpha = 0.1)
 
+housing.plot(kind = 'scatter', x = 'longitude', y= 'latitude', alpha = 0.4,
+             s= housing['population']/100, label = 'population', figsize = (10,7),
+             c = 'median_house_value', cmap =plt.get_cmap('jet'), colorbar= True,)
+plt.legend()
 
+#Looking for Correlations
+corr_matrix = housing.corr()
+corr_matrix['median_house_value'].sort_values(ascending = False)
+
+from pandas.plotting import scatter_matrix
+
+attributes = ['median_house_value', 'median_income','total_rooms', 'housing_median_age']
+scatter_matrix(housing[attributes], figsize=(12,8))
+
+'''
+The main diagonal (top left to bottom right) would be full of straight lines if pandas
+plotted each variable against itself, which would not be useful.
+So instead pandas displays a histogram of each attribute
+'''
+#The most promising attribute to predict the median house value is the median income
+housing.plot(kind = 'scatter', x= 'median_income', y = 'median_house_value', alpha = 0.1)
+
+#Experimenting with Attribute Combinations
+housing['rooms_per_household'] = housing['total_rooms'] /housing['households']
+housing['bedrooms_per_room'] = housing['total_bedrooms'] / housing['total_rooms']
+housing['population_per_household'] = housing['population'] / housing['households']
+
+corr_matrix = housing.corr()
+corr_matrix['median_house_value'].sort_values(ascending = False)
+
+housing = strat_train_set.drop('median_house_value', axis = 1)
+housing_labels = strat_train_set['median_house_value'].copy()
+
+from _cleaning import DataCleaning
+
+dataCleaning = DataCleaning()
+
+dataCleaning.missingValues(housing)
+
+dataset1 = dataCleaning.fixMissingValues(housing,subset =['total_bedrooms'],strategy = 'simpute')

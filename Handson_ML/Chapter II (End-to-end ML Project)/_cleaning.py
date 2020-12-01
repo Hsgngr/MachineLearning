@@ -132,6 +132,7 @@ class DataCleaning():
             X = imputer.transform(data[columns])
             data[columns] = X
         
+        print('missing values are cleaned.')
         return data
             
             

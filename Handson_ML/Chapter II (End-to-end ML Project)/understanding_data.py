@@ -207,3 +207,9 @@ full_pipeline =  ColumnTransformer([
     ('cat', OneHotEncoder(), cat_attribs)])
 
 housing_prepared = full_pipeline.fit_transform(housing)
+
+
+import joblib
+
+joblib.dump(housing_prepared,'housing_prepared.pkl')
+joblib.dump(housing_labels,'housing_labels.pkl')

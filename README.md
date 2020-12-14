@@ -16,6 +16,7 @@ A Source Repository for Machine Learning related Articles/Notebooks
 
 
 ### RNN
+* [Debiasing Word Embeddings](articles/Debiasing_Word_Embeddings.pdf)
 * [Massive Exploration of Neural Machines Translation Architectures](articles/Massive_Exploration_of_Neural_Machine_Translation_Architectures.pdf)
 * [RNNs for Language Recognition](articles/RNNs_for_Language_Recognition.pdf)
 

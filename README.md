@@ -36,3 +36,5 @@ A Source Repository for Machine Learning related Articles/Notebooks
 * [Gradient Based Learning Applied to Document Recognition (LeeCun 1998)](articles/Gradient_Based_Learning_Applied_to_Document_Recognition.pdf) (Read especially  Chapter II and III)
 * [Densely Connected Convolutional Networks](articles/Densely%20Connected%20Convolutional%20Networks.pdf)
 
+### NLP
+* [Attention Is All You Need (Transformers 2017)](articles/attention_is_all_you_need.pdf)

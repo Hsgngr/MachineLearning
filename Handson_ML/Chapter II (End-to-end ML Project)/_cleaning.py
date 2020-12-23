@@ -38,10 +38,26 @@ class DataCleaning():
         self.dataset = dataset
         
         
-    def missingValues(self,data, printResults = True):
-        ''''Checks if there is any missingValues and show them in a nice format'''
+    def missingValues(self,data,missing_values = None, printResults = True, ):
+        ''''Checks if there is any missingValues and show them in a nice format
+        
+        data : DataFrame
+            The dataframe that you are going to use
+            
+        printResults: Boolean, default = True
+            The printResults gives control whether you want to print missing information
+            
+        missing_values: List of Strings, default = None
+            Optional*
+            If the data has custom Nan values like 'no-data' replace it with NaN.
+        '''
         
         columns = [] #Columns with missing values
+        
+        if missing_values:
+            for column in data.columns:
+                for missingString in missing_values:
+                    data[column]= data[column].replace(missingString, np.NaN)
         
         if data.isnull().sum().sum() < 1:
             print('\nThere is no missing data as Nan. If you still not sure check the Dataframe manually')
@@ -53,7 +69,7 @@ class DataCleaning():
             for column in data.columns:
                 missing_count= data[column].isnull().sum()
                 if missing_count >1:
-                    missing_ratio = missing_count / len(column)
+                    missing_ratio = missing_count / len(data)
                     missing_ratio = float("{:.2f}".format(missing_ratio))
                     columns.append(column)
                     #If the missing rate higher than 5% show the percentage

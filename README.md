@@ -37,4 +37,6 @@ A Source Repository for Machine Learning related Articles/Notebooks
 * [Densely Connected Convolutional Networks](articles/Densely%20Connected%20Convolutional%20Networks.pdf)
 
 ### NLP
+* [Learning phrase representations using RNN encoder-decoder for statistical machine translation (2014)](articles/learning_phrase_representations.pdf)
+* [Sequence to sequence learning with neural networks (2014)](articles/sequence_to_sequence.pdf)
 * [Attention Is All You Need (Transformers 2017)](articles/attention_is_all_you_need.pdf)

@@ -37,6 +37,7 @@ A Source Repository for Machine Learning related Articles/Notebooks
 * [Densely Connected Convolutional Networks](articles/Densely%20Connected%20Convolutional%20Networks.pdf)
 
 ### NLP
+* [BLEU: a Method for Automatic Evaluation of Machine Translation (2002)](articles/bleu.pdf)
 * [Deep Visual Semantic Alingments for Generating Image Descriptions (2015)](articles/deep_visual_semantic_alignments.pdf)
 * [Show and Tell - A Neural Image Caption Generator (2014)](articles/show_and_tell.pdf)
 * [Deep Captioning with Multimodal Recurrent Neural Networks (m-RNN 2014)](articles/deep_captioning.pdf)

@@ -101,4 +101,34 @@ grid_search = GridSearchCV(forest_reg, param_grid, cv = 5, scoring = 'neg_mean_s
 grid_search.fit(housing_prepared,housing_labels)
 grid_search.best_params_
 
+#Analyze the Best Models and Their Errors
 feature_importances = grid_search.best_estimator_.feature_importances_
+
+#Let's display these importance scores next to their corresponding attribute names:
+extra_attrbis = ['room_per_hhold','pop_per_hhold','bedrooms_per_room']
+cat_encoder = full_pipeline.named_transformers_['cat']
+cat_one_hot_attribs = list(cat_encoder.categories_[0])
+attributes = num_attribs + extra_attribs + cat_one_hot_attribs
+sorted(zip(feature_importances,attributes),reverse = True)
+
+#Evaluate Your System on Test Set
+final_model = grid_search.best_estimator_
+
+X_test = strat_test_set.drop('median_house_value', axis=1)
+y_test = strat_test_set['median_house_value'].copy()
+
+
+X_test_prepared = full_pipeline.transform(X_test)
+
+final_predictions = final_model.predict(X_test_prepared)
+
+final_mse = mean_squared_error(y_test, final_predictions)
+final_rmse =np.sqrt(final_mse) #=> evaluates to 47,730.2
+
+#Compute a 95% confidence interval for the generalization error using scipy.stats.t.interval()
+from scipy import stats
+confidence = 0.95
+squared_errors = (final_predictions - y_test)**2
+np.sqrt(stats.t.interval(confidence, len(squared_errors) - 1,
+                         loc=squared_errors.mean(),
+                         scale = stats.sem(squared_errors)))

@@ -10,6 +10,10 @@ A Source Repository for Machine Learning related Articles/Notebooks
 ### Optimization
 * [Adam Optimizer](articles/Adam_stochastic_optimization.pdf)
 
+### Normalization
+* [Batch Normalization](articles/Batch_Normalization.pdf)
+
+
 
 ### Feature Engineering
 * [LIME : Interpretable Machine Learning Explaining the Predictions of Any Classifier](articles/lime_article.pdf)

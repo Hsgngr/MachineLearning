@@ -53,9 +53,17 @@ A Source Repository for Machine Learning related Articles/Notebooks
 
 ### Reinforcement Learning
 There are many articles about RL, this only covers articles that I have read after June 2021:
-* [DeepMind: Reward is Enough (June 2021)](articles/reward_is_enough.pdf)
+* [DeepMind: Reward is Enough (June 2021)](articles/RL/reward_is_enough.pdf)
+* [DeepMind: AtariGames (June 2013)](articles/RL/DeepNN-AtariGames-Deepmind-2013.pdf)
+* [Cooperative and Competitive Multiagent Learning](articles/Cooperative_and_Competitive_Multiagent_Learning.pdf)
+* [Mutiagent Dep Rinforcement Larning](articles/RL/multiagent_deep_RL.pdf)
+* [Large-Scale Study of Curiosity-Driven Learning](articles/RL/Curiosity_Driven_Learning.pdf)
+* [OpenAI: Hide and Seek (2020)](articles/RL/Hide_and_Seek.pdf)
+* [OpenAI: Solving Rubiks Cube with a Robot Hand (2019)](articles/RL/OpenAI_solving_rubiks_cube_with_a_robot_hand.pdf)
+* [DeepMind: Progressive Neural Networks (2016)](articles/RL/Progressive_Neural_Networks.pdf)
 * [Simulation-Based Reinforcement Learning for Real-World Autonomous Driving (2020)](articles/RL/Simulation-Based_Reinforcement_Learning_for_Real-World_Autonomous_Driving.pdf)
 * [The Uncertainty Bellman Equation and Exploration (2018)](articles/RL/uncertainty_bellman_equation_and_exploration.pdf)
+* [Continuous - Discrete Action Space Comparison](articles/RL/continuous_discrete_action_space_comparison.pdf)
 * [Reinforcement Learning: an Overview (2000)](articles/RL/Reinforcement_Learning_an_Overview.pdf)
 * [Sutton's Famous Book: Introduction_to_Reinforcement_Learning](articles/RL/Introduction_to_Reinforcement_Learning.pdf)
 

@@ -42,6 +42,7 @@ A Source Repository for Machine Learning related Articles/Notebooks
 * [Densely Connected Convolutional Networks](articles/Densely%20Connected%20Convolutional%20Networks.pdf)
 
 ### NLP
+* [XLM-R Unsupervised Cross-lingual Representation Learning (2020)](articles/unsupervised-cross-lingual-representation-learning-at-scale)
 * [BLEU: a Method for Automatic Evaluation of Machine Translation (2002)](articles/bleu.pdf)
 * [Deep Visual Semantic Alingments for Generating Image Descriptions (2015)](articles/deep_visual_semantic_alignments.pdf)
 * [Show and Tell - A Neural Image Caption Generator (2014)](articles/show_and_tell.pdf)

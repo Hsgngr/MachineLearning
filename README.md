@@ -54,7 +54,7 @@ A Source Repository for Machine Learning related Articles/Notebooks
 ### Reinforcement Learning
 There are many articles about RL, this only covers articles that I have read after June 2021:
 * [DeepMind: Reward is Enough (June 2021)](articles/RL/reward_is_enough.pdf)
-* [DeepMind: AtariGames (June 2013)](articles/RL/DeepNN-AtariGames-Deepmind-2013.pdf)
+* [DeepMind: AtariGames (2013)](articles/RL/DeepNN-AtariGames-Deepmind-2013.pdf)
 * [Cooperative and Competitive Multiagent Learning](articles/Cooperative_and_Competitive_Multiagent_Learning.pdf)
 * [Mutiagent Dep Rinforcement Larning](articles/RL/multiagent_deep_RL.pdf)
 * [Large-Scale Study of Curiosity-Driven Learning](articles/RL/Curiosity_Driven_Learning.pdf)

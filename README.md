@@ -54,4 +54,8 @@ A Source Repository for Machine Learning related Articles/Notebooks
 ### Reinforcement Learning
 There are many articles about RL, this only covers articles that I have read after June 2021:
 * [DeepMind: Reward is Enough (June 2021)](articles/reward_is_enough.pdf)
+* [Simulation-Based Reinforcement Learning for Real-World Autonomous Driving (2020)](articles/RL/Simulation-Based_Reinforcement_Learning_for_Real-World_Autonomous_Driving.pdf)
+* [The Uncertainty Bellman Equation and Exploration (2018)](articles/RL/uncertainty_bellman_equation_and_exploration.pdf)
+* [Reinforcement Learning: an Overview (2000)](articles/RL/Reinforcement_Learning_an_Overview.pdf)
+* [Sutton's Famous Book: Introduction_to_Reinforcement_Learning](articles/RL/Introduction_to_Reinforcement_Learning.pdf)
 

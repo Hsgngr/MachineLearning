@@ -52,7 +52,6 @@ A Source Repository for Machine Learning related Articles/Notebooks
 * [Attention Is All You Need (Transformers 2017)](articles/attention_is_all_you_need.pdf)
 
 ### Reinforcement Learning
-There are many articles about RL, this only covers articles that I have read after June 2021:
 * [DeepMind: Reward is Enough (June 2021)](articles/RL/reward_is_enough.pdf)
 * [DeepMind: AtariGames (2013)](articles/RL/DeepNN-AtariGames-Deepmind-2013.pdf)
 * [Cooperative and Competitive Multiagent Learning](articles/Cooperative_and_Competitive_Multiagent_Learning.pdf)

@@ -5,6 +5,7 @@ A Source Repository for Machine Learning related Articles/Notebooks
 ## Articles
 
 ### General
+*[Can Machines Think AM Turing (1950)](articles/can_machines_think.pdf)
 * [Calculus](articles/Calculus.pdf)
 
 ### Optimization

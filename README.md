@@ -67,3 +67,7 @@ A Source Repository for Machine Learning related Articles/Notebooks
 * [Reinforcement Learning: an Overview (2000)](articles/RL/Reinforcement_Learning_an_Overview.pdf)
 * [Sutton's Famous Book: Introduction_to_Reinforcement_Learning](articles/RL/Introduction_to_Reinforcement_Learning.pdf)
 
+### Domain Specific
+#### Ocean Engineering
+* [Machine Learning Models for ship main engine Fuel Oil Consumption: A Comparative Study (2019)](articles/domain_specific/ocean_engineering/fuel_oil_consumption.pdf)
+* [Vessels fuel consumption forecast (2017)](articles/domain_specific/ocean_engineering/vessels_fuel_consumption_forecast.pdf)

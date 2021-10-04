@@ -9,10 +9,9 @@ A Source Repository for Machine Learning related Articles/Notebooks
 * [Calculus](articles/Calculus.pdf)
 
 ### Optimization
-#### Training
 * [Adam Optimizer](articles/optimization/Adam_stochastic_optimization.pdf)
-#### Hyperparameter Optimization
-* [Population Based Optimization](articles/optimization/pbt.pdf)
+
+* [Population Based Optimization (Hyperparameter Optimization)](articles/optimization/pbt.pdf)
 
 ### Normalization
 * [Batch Normalization](articles/Batch_Normalization.pdf)

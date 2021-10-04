@@ -10,7 +10,7 @@ A Source Repository for Machine Learning related Articles/Notebooks
 
 ### Optimization
 #### Training
-* [Adam Optimizer](articles/Adam_stochastic_optimization.pdf)
+* [Adam Optimizer](articles/optimization/Adam_stochastic_optimization.pdf)
 #### Hyperparameter Optimization
 * [Population Based Optimization](articles/optimization/pbt.pdf)
 

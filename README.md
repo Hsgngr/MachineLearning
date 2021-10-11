@@ -73,3 +73,10 @@ A Source Repository for Machine Learning related Articles/Notebooks
 #### Ocean Engineering
 * [Machine Learning Models for ship main engine Fuel Oil Consumption: A Comparative Study (2019)](articles/domain_specific/ocean_engineering/fuel_oil_consumption.pdf)
 * [Vessels fuel consumption forecast (2017)](articles/domain_specific/ocean_engineering/vessels_fuel_consumption_forecast.pdf)
+
+#### Medical Diagnosis
+* [U-Net for Biomedical Image Segmentation](articles/domain_specific/medical_diagnosis/cnn_image_segmentation.pdf)
+* [Dermatologist-level classification of skin cancer with deep neural networks](articles/domain_specific/medical_diagnosis/Dermatology.pdf)
+* [Fundus photograph-based deep learning algorithms in detecting diabetic retinopathy](articles/domain_specific/medical_diagnosis/ophthalmology.pdf)
+* [Deep Learning Assistance on the Histopathologic Review of Lymph Nodes for Metastatic Breast Cancer](articles/domain_specific/medical_diagnosis/Histopathology.pdf)
+* [Chest X-ray Database and Benchmarks on Weakly-Supervised Classification](articles/domain_specific/medical_diagnosis/ChestX.pdf)

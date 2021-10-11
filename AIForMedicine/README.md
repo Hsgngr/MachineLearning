@@ -22,10 +22,10 @@ I'm using this repository as a collection repo.
 ### Medical Diagnosis
 
 * [U-Net for Biomedical Image Segmentation](../articles/domain_specific/medical_diagnosis/cnn_image_segmentation.pdf)
-* [Dermatologist-level classification of skin cancer with deep neural networks](articles/domain_specific/medical_diagnosis/Dermatology.pdf)
-* [Fundus photograph-based deep learning algorithms in detecting diabetic retinopathy](articles/domain_specific/medical_diagnosis/ophthalmology.pdf)
-* [Deep Learning Assistance on the Histopathologic Review of Lymph Nodes for Metastatic Breast Cancer](articles/domain_specific/medical_diagnosis/Histopathology.pdf)
-* [Chest X-ray Database and Benchmarks on Weakly-Supervised Classification](articles/domain_specific/medical_diagnosis/ChestX.pdf)
+* [Dermatologist-level classification of skin cancer with deep neural networks](../articles/domain_specific/medical_diagnosis/Dermatology.pdf)
+* [Fundus photograph-based deep learning algorithms in detecting diabetic retinopathy](../articles/domain_specific/medical_diagnosis/ophthalmology.pdf)
+* [Deep Learning Assistance on the Histopathologic Review of Lymph Nodes for Metastatic Breast Cancer](../articles/domain_specific/medical_diagnosis/Histopathology.pdf)
+* [Chest X-ray Database and Benchmarks on Weakly-Supervised Classification](../articles/domain_specific/medical_diagnosis/ChestX.pdf)
 
 
 ## Contribution

@@ -1,6 +1,7 @@
 # Machine Learning Collection
 
-A Source Repository for Machine Learning related Articles/Notebooks. I occasionally add papers that I have read and liked for future reference.
+A Source Repository for Machine Learning related Articles/Notebooks.
+I occasionally add papers that I have read and liked for future reference.
 
 ## Articles
 

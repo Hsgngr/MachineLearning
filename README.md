@@ -16,6 +16,8 @@ A Source Repository for Machine Learning related Articles/Notebooks. I occasiona
 ### Normalization
 * [Batch Normalization](articles/Batch_Normalization.pdf)
 
+### Pre-training
+* [Exploring the Limits of Large Scale Pre-training](https://arxiv.org/abs/2110.02095)
 
 
 ### Feature Engineering

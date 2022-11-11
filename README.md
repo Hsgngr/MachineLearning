@@ -54,7 +54,7 @@ A Source Repository for Machine Learning related Articles/Notebooks
 * [Sequence to sequence learning with neural networks (2014)](articles/sequence_to_sequence.pdf)
 * [Attention Is All You Need (Transformers 2017)](articles/attention_is_all_you_need.pdf)
 
-### Reinforcement Learning
+### RL
 * [DeepMind: Reward is Enough (June 2021)](articles/RL/reward_is_enough.pdf)
 * [DeepMind: AtariGames (2013)](articles/RL/DeepNN-AtariGames-Deepmind-2013.pdf)
 * [Cooperative and Competitive Multiagent Learning](articles/Cooperative_and_Competitive_Multiagent_Learning.pdf)

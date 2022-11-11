@@ -60,6 +60,7 @@ A Source Repository for Machine Learning related Articles/Notebooks. I occasiona
 * [Attention Is All You Need (Transformers 2017)](articles/attention_is_all_you_need.pdf)
 
 ### RL
+* [DeepMind: A Generalist Agent](https://arxiv.org/pdf/2205.06175.pdf)
 * [DeepMind: Reward is Enough (June 2021)](articles/RL/reward_is_enough.pdf)
 * [DeepMind: AtariGames (2013)](articles/RL/DeepNN-AtariGames-Deepmind-2013.pdf)
 * [Cooperative and Competitive Multiagent Learning](articles/Cooperative_and_Competitive_Multiagent_Learning.pdf)

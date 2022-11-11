@@ -1,6 +1,6 @@
 # Machine Learning Collection
 
-A Source Repository for Machine Learning related Articles/Notebooks
+A Source Repository for Machine Learning related Articles/Notebooks. I occasionally add papers that I have read and liked for future reference.
 
 ## Articles
 
@@ -23,6 +23,9 @@ A Source Repository for Machine Learning related Articles/Notebooks
 
 ### Unsupervised Learning
 * [Unsupervised Speech Recognition Facebook AI (May 2021) ](articles/Unsupervised_Speech_Recognition.pdf)
+
+### Contrastive Learning
+* [Partial and Asymmetric Contrastive Learning for Out-of-Distribution Detection in Long-Tailed Recognition](https://arxiv.org/abs/2207.01160)
 ### RNN
 * [Debiasing Word Embeddings](articles/Debiasing_Word_Embeddings.pdf)
 * [Massive Exploration of Neural Machines Translation Architectures](articles/Massive_Exploration_of_Neural_Machine_Translation_Architectures.pdf)
